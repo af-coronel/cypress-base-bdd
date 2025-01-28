@@ -1,0 +1,24 @@
+{
+  "name": "cypress-base-bdd",
+  "version": "1.0.0",
+  "description": "Proyecto base de Cypress con Cucumber",
+  "main": "index.js",
+  "engines": {
+    "node": ">=22.11.0"
+  },
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "desafios"
+  ],
+  "author": "Darwoft",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4",
+    "cypress": "^14.0.0",
+    "oracledb": "^6.6.0"
+  }
+}

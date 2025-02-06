@@ -1,0 +1,30 @@
+{
+  "editor.formatOnSave": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "path-intellisense.mappings": {
+    "/": "${workspaceRoot}/test/cypress"
+  },
+  "debug.javascript.defaultRuntimeExecutable": {
+    "pwa-node": "node"
+  },
+  "json.schemas": [],
+  "workbench.editor.enablePreview": false,
+  "diffEditor.renderSideBySide": false,
+  "eslint.codeActionsOnSave.rules": null,
+  "json.schemaDownload.enable": true,
+  "workbench.settings.useSplitJSON": false,
+  "cucumberautocomplete.steps": ["cypress/e2e/step_definitions/**.js"],
+  "cucumberautocomplete.syncfeatures": "cypress/e2e/features/**/*.feature",
+  "cucumberautocomplete.strictGherkinCompletion": false,
+  "cucumberautocomplete.smartSnippets": true,
+  "cucumberautocomplete.stepsInvariants": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 1,
+  "diffEditor.ignoreTrimWhitespace": true
+}

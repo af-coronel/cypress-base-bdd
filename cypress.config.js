@@ -8,7 +8,7 @@ const createEsbuildPlugin =
 module.exports = defineConfig({
   env: {},
   e2e: {
-    specPattern: "cypress/e2e/features/**.feature",
+    specPattern: ["cypress/e2e/**/*.feature", "cypress/e2e/**/*.spec.js"],
     async setupNodeEvents(on, config) {
       const bundler = createBundler({
         plugins: [createEsbuildPlugin(config)],
